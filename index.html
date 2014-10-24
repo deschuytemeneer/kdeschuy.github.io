@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>kdeschuy.github.io</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600|Ranchers&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .splash {
+        width: 100vw;
+        height: 100vh;
+        padding: 0 20px;
+        background: #df4949;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+      }
+
+      .splash__title {
+        color: #ebf5e3;
+        font-family: 'Ranchers', sans-serif;
+        font-size: 160px;
+        flex: 1 1 0;
+        margin: 50% 0 0 0;
+      }
+      
+      .splash__title::selection {
+        color: #133c4a;
+      }
+
+      .splash__addendum {
+        color: #133c4a;
+        font-size: 1rem;
+        line-height: 1.4;
+        font-family: 'Raleway', sans-serif;
+      }
+      
+      .splash__addendum::selection {
+        color: #ebf5e3;
+      }
+
+      .splash__links,
+      .splash__links::selection  {
+        color: inherit;
+      }
+
+      @media screen and (min-width: 740px) {
+        .splash__title {
+          font-size: 256px;
+          margin: 10% 0 0 0;
+        }
+      }
+    </style>
+  </head>
+  <body class="splash">
+    <h1 class="splash__title">Hey.</h1>
+    <p class="splash__addendum">
+      I'm working on this website. In anticipation, you can take a peek at my work on
+      my <a class="splash__links" href="https://www.linkedin.com/in/kenny-deschuyteneer-4a7185108/">linkedin</a>.
+    </p>
+  </body>
+</html>
